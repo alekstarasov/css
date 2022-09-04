@@ -1,0 +1,125 @@
+body{
+    background-color:darkgray;
+    color:black ;
+    font-size: 16px;
+    font-weight:normal;
+    font-family:'Times New Roman', Times, serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+} 
+
+a:visited{
+    color:darkgreen;
+}
+
+
+
+.ava{
+width: 200px;/*размер картинки */
+border-radius: 28px;/*скругление картинки*/
+box-shadow:4px 4px 14px rgba(0,0,0,025) ;/*создаёт тень на фотке*/
+
+}
+.info p{
+color: black;
+margin: 0;/*убирает большой промежуток между пердложаниями*/
+text-decoration: underline;
+/*text-decoration: line-through;*//*зачёркиватет текс*/
+/*letter-spacing: 5px;*//*растояние между каждым символом*/
+margin: auto;/*делает сайт по середине*/
+max-width: 750px;
+
+}
+.info{
+margin-bottom: 20px;
+}
+.info{
+    display: flex;
+    margin-bottom: 20px;
+}
+.info-text{
+    margin-left: 40px;
+}
+.info-text h4{
+margin-bottom: 10px;
+}
+/*.inst {
+
+background: skyblue;
+/*padding: 10px;*//*
+padding-left: 30px; /отступ с лева
+padding-top: 17px; /отступ с верху
+padding-bottom: 25px;/отступ с низу
+padding-right: 20px;/отступ с права
+border: 5px solid rgb(68, 68, 228);
+margin: 15px ;
+}*/
+.bg-zolt{
+    background: #fff9dc;
+}
+.bg-green{
+    background:#e5ffe7;
+}
+.bg-red{
+    background: #ffe5e5;
+}
+
+.card{
+    padding: 15px 20px;
+   
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h2{
+    margin-bottom: 20px;
+}
+.list{
+    padding: 0 20px;
+}
+.list li{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.table{
+width: 100%;
+}
+.table td{
+padding-bottom: 10px;
+}
+.contact h2{
+    text-align: center;
+}
+.form-group label{
+font-size: 14px;
+color: black;
+    display: block;
+}
+.form-group input , .form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.ts{
+    background: #000;
+    padding: 10px 15px;
+    color:#ccc;
+    font-family: inherit;
+    cursor: pointer;
+}
+.ts:hover{
+    opacity: 0.9;
+}
